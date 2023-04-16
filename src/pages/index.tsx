@@ -7,12 +7,11 @@ const Home = () => {
         Hi, I&apos;m James Barge
       </h1>
       <p className="text-gray-700 text-lg mb-6">
-        I&apos;m a software developer based in San Francisco, CA. I specialize in
-        building web applications using JavaScript and React.
+        I&apos;m J
       </p>
       <div className="flex space-x-4">
         <a
-          href="https://twitter.com/jamesbarge"
+          href="https://twitter.com/jamesbrge"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-gray-800"
