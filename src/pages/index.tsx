@@ -1,52 +1,27 @@
-import Head from 'next/head';
-import styles from '../styles/home.module.css';
+import React from 'react';
 
-export default function Home() {
+const Index = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>James Barge - Product Manager</title>
-        <meta name="description" content="James Barge - Product Manager based in London" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          James Barge
-        </h1>
-        <p className={styles.description}>
+    <div className="min-h-screen flex items-center justify-start bg-white p-8">
+      <main className="max-w-xl">
+        <h1 className="text-3xl font-semibold mb-4">James Barge</h1>
+        <p className="text-xl font-normal mb-4">
           Product Manager based in London
         </p>
-        <div className={styles.grid}>
-          <a href="https://keebo.com" className={styles.card}>
-            <h2>Currently: Keebo</h2>
-            <p>Learn more about Keebo, where I currently work as a product manager.</p>
-          </a>
-
-          <a href="https://herd.com" className={styles.card}>
-            <h2>Previously: Herd</h2>
-            <p>Learn more about my role as a product manager at Herd.</p>
-          </a>
-
-          <a href="https://www.gov.uk/government/organisations/public-health-england" className={styles.card}>
-            <h2>Public Health England</h2>
-            <p>Learn more about my time working as a product manager for Public Health England.</p>
-          </a>
-
-          <a href="https://lovehomeswap.com" className={styles.card}>
-            <h2>LoveHomeSwap</h2>
-            <p>Learn more about my experience as a product manager at LoveHomeSwap.</p>
-          </a>
+        <p className="text-xl font-normal mb-4">
+          Currently at <a className="text-blue-500" href="https://www.keebo.com/">Keebo</a>
+        </p>
+        <p className="text-xl font-normal mb-8">
+          Previously at <a className="text-blue-500" href="#">Herd</a>, <a className="text-blue-500" href="#">Public Health England</a>, and <a className="text-blue-500" href="#">LoveHomeSwap</a>
+        </p>
+        <div className="flex space-x-4 text-xl">
+          <a className="text-black hover:text-blue-500" href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a className="text-black hover:text-blue-500" href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a className="text-black hover:text-blue-500" href="mailto:your@email.com">Email</a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <div className={styles.socialLinks}>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="mailto:email@example.com" target="_blank" rel="noopener noreferrer">Email</a>
-        </div>
-      </footer>
     </div>
   );
-}
+};
+
+export default Index;
