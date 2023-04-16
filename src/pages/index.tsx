@@ -7,7 +7,7 @@ const Home = () => {
         Hi, I&apos;m James Barge
       </h1>
       <p className="text-gray-700 text-lg mb-6">
-        I&apos;m J
+        I&apos;m a product manager at Keebo, building the future of credit with open banking
       </p>
       <div className="flex space-x-4">
         <a
