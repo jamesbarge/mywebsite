@@ -36,7 +36,7 @@ const Home = () => {
           Twitter
         </a>
         <a
-          href="https://instagram.com/ivlicense"
+          href="https://instagram.com/ivlcense"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-gray-800"
